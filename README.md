@@ -3,13 +3,12 @@
 The house Management System project is really made for the tenant's and the property owner. The owner of the 
 property can rent or sell his property to the tenant. In this project we show property (house) to persons who
 need property to rent or buy . People who require property for rent can directly contact the property owner and
-book their property for rent.
-<hb>
-Technologys : Java , Jsp , Servlet , Hibernate , MySQL , HTML , CSS , Bootstrap , jQuery
-</b>
+book their property for rent.</br></br>
+<b>Technologys : Java , Jsp , Servlet , Hibernate , MySQL , HTML , CSS , Bootstrap , jQuery</b>
+
 ScreenShots : 
 
-**** Home page ****
+<h6 style="color:'red'">*** Home page ****</h6>
 
 ![Web capture_19-11-2022_111047_localhost](https://user-images.githubusercontent.com/118426413/202839044-a410baf9-79cf-46c9-bd71-280797b1246d.jpeg)
 
@@ -43,9 +42,7 @@ OTP send on email
 
 **** Search property diffrent conditions ****
 
-
-![Web capture_19-11-2022_104248_localhost](https://user-images.githubusercontent.com/118426413/202839273-d5c0091f-bdb0-4efe-afaf-31b7fe812256.jpeg)
-
+![Web capture_19-11-2022_105311_localhost](https://user-images.githubusercontent.com/118426413/202841173-d3c77b37-38d0-485e-9e3a-a85a06db4c6d.jpeg)
 
 
 **** Single property Discreption ****
