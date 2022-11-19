@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <!-- house servlet mapping  -->
+    <servlet>
+        <servlet-name>HouseServlet</servlet-name>
+        <servlet-class>adminServlet.HouseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HouseServlet</servlet-name>
+        <url-pattern>/HouseServlet</url-pattern>
+    </servlet-mapping>
+    <!-- Agent servlet mapping  -->
+    <servlet>
+        <servlet-name>AgentServlet</servlet-name>
+        <servlet-class>adminServlet.AgentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgentServlet</servlet-name>
+        <url-pattern>/AgentServlet</url-pattern>
+    </servlet-mapping>
+    <!--dash bord servlet mapping-->
+    <servlet>
+        <servlet-name>DashbordServlet</servlet-name>
+        <servlet-class>adminServlet.DashbordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DashbordServlet</servlet-name>
+        <url-pattern>/DashbordServlet</url-pattern>
+    </servlet-mapping>
+    <!-- LoginRegisterServlet servlet mapping-->
+    <servlet>
+        <servlet-name>LoginRegisterServlet</servlet-name>
+        <servlet-class>Servlet.LoginRegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginRegisterServlet</servlet-name>
+        <url-pattern>/LoginRegisterServlet</url-pattern>
+    </servlet-mapping>
+    <!-- UserServlet servlet mapping-->
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>Servlet.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/UserServlet</url-pattern>
+    </servlet-mapping>
+    <!-- UserServlet servlet mapping-->
+    <servlet>
+        <servlet-name>ClientServlet</servlet-name>
+        <servlet-class>adminServlet.ClientServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClientServlet</servlet-name>
+        <url-pattern>/ClientServlet</url-pattern>
+    </servlet-mapping>
+    <!-- TenantServlet servlet mapping-->
+    <servlet>
+        <servlet-name>TenantServlet</servlet-name>
+        <servlet-class>adminServlet.TenantServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TenantServlet</servlet-name>
+        <url-pattern>/TenantServlet</url-pattern>
+    </servlet-mapping>
+    <!-- UserServlet servlet mapping-->
+    <servlet>
+        <servlet-name>AllPropertyServlet</servlet-name>
+        <servlet-class>Servlet.AllPropertyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AllPropertyServlet</servlet-name>
+        <url-pattern>/AllPropertyServlet</url-pattern>
+    </servlet-mapping>
+    <!-- PaymentServlet servlet mapping-->
+    <servlet>
+        <servlet-name>PaymentServlet</servlet-name>
+        <servlet-class>Servlet.PaymentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PaymentServlet</servlet-name>
+        <url-pattern>/PaymentServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

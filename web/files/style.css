@@ -1,0 +1,678 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 10, 2020, 11:45:26 AM
+    Author     : Rohit
+*/
+*{
+   box-sizing: border-box;
+}
+html{
+    scroll-behaior:smooth;
+}
+.ownerImg{
+    border-radius: 100%;
+   
+}
+
+@font-face{
+    font-family: merienda-bold;
+    src:url("font/Merienda-Bold.ttf");
+}
+@font-face{
+    font-family: merienda;
+    src:url("font/Merienda-Regular.ttf");
+}
+@font-face{
+    font-family: ptsans-bold;
+    src:url("font/PTSans-BoldItalic.ttf");
+}
+@font-face{
+    font-family: ptsans;
+    src:url("font/PTSans-Regular.ttf");
+}
+*{
+    font-family: ptsans;
+}
+.merienda-bold{
+    font-family: merienda-bold;
+}
+.merienda{
+    font-family: merienda;
+}
+/* header code is here  */
+.search{
+    padding: 2px;
+    background:#3366ff;
+}
+.hide2{
+    display:none;
+}
+.nav-link-menu{
+    color:red;
+    margin-left: 3px;
+    font-family:ptsans;
+}
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: #2eca6a;
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 1;
+  font-size: 16px;
+  border-radius: 50%;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+  z-index: 11;
+  cursor:pointer;
+}
+
+.back-to-top i {
+  padding-top: 12px;
+  color: #fff;
+}
+
+.nav-link-menu:hover{
+    background: #3366ff;
+    color:white;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.msg{
+    font-size: 12px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+.social{
+        font-size: 12px;
+        color:white;
+        margin-right:20px;
+}
+.m{
+ /* m class for mobile screen register login search */
+   margin-right:5px ; 
+   margin-top:10px;
+   list-style-type: none;
+}
+.top-nav{
+    background:black;
+    opacity:0.8;
+}
+
+/* header code will end here */
+
+
+.card-m{
+   margin:70px 0 20px 100px;
+   width:30%;
+   height:400px;
+   background:white;
+   padding:10px;
+   opacity:0.8;
+   
+    
+}
+
+.month{
+    font-size:12px;
+}
+.for-sale{
+    background:#339900;
+    padding:0 5px 0 5px;
+    font-size:18px;
+    margin-left: 25px;
+    border-radius: 2px;
+    color:white;
+}
+.side-info{
+    position: absolute;
+    top:30%;
+    right:15%;
+   
+    width:400px;
+}
+
+/* search bar codding is here */
+.searchBar{
+    width:50%;
+    height: 100%;
+    background:white;
+    position:fixed;
+    top:0px;
+    display:none;
+    right:0px;
+    z-index:9999;
+}
+.stitle{
+    color:black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* search bar coding end */
+.brand-name{
+    font-family: merienda-bold;
+    margin-top: 70px;
+    margin-bottom: 50px; 
+}
+.btn-tomato{
+    background: tomato;
+}
+.rounded{
+    border-radius:50px !important;
+}
+.sidebar{
+    background:white;
+   
+}
+/* our srvice img   */
+.img-s{
+    margin-left: 50px;
+    max-width: 100px;
+    max-height: 100px;
+    width:auto;
+}
+.img-text{
+    position: absolute;
+    left:156px;
+    top:50px;
+    color:#66cc00;
+    font-family:aladin;
+}
+.search{
+    cursor:pointer;
+}
+.hr{
+    margin-top: -35px;
+}
+
+/* home cards coding */
+.home-name{
+    margin-top: 150px;
+}
+.btn-border{
+    color:white;
+    border-radius:50px;
+    border:2px solid #33ff33;
+    width:150px;
+    padding: 2px;
+    cursor: pointer;
+}
+.bg{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6));
+    transition: .4s;
+}
+.home-card{
+    overflow:hidden;
+}
+.home-content{
+    position:absolute;
+    bottom:-80px;
+    left:15px;
+    width:90%;
+    transition: all .4s;
+}
+.img-side{
+    margin-top: 60px;
+    
+}
+.card-body img{
+    transition: .4s;
+}
+.agent-bar{
+    margin-top: -14px !important;
+    
+}
+.agent-img-icon{
+    position: absolute;
+    bottom: 0;
+    left:10%;
+}
+.home-card:hover .card-body img{
+    transform:scale(1.1);
+}
+.home-card:hover .home-content{
+    bottom: 0px;
+}
+.sub-head{
+    font-size: 18px;
+    position: absolute;
+    right:10%;
+    cursor:pointer;
+}
+.bold{
+    font-weight:bold;
+}
+
+.h-center{
+    padding-top: 30%;
+}
+/* home card end */
+.agent-detail{
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top:350px;
+    background-color:rgba(0,10,0,0.8);
+    transition: .4s;
+    padding:20px;
+}
+.our-team:hover .agent-detail{
+    top:0px;
+}
+.capitalize{
+   text-transform: capitalize;
+}
+.team{
+   overflow: hidden;
+}
+.t-img{
+    max-height: 350px;
+    max-width: 400px;
+    width: auto;
+   
+}
+.t-comment{
+    padding:10px 10px 25px 10px;
+    font-family:aladin;
+    font-size:20px;
+}
+.t-img2{
+    display:block;
+    border-radius: 100%;
+    max-height: 80px;
+    max-width: 80px;
+    width: auto;
+}
+.t-name{
+   position:absolute;
+   top:225px;
+   left:130px;
+}
+
+.compony-name{
+    cursor:pointer;
+    font-size:30px;
+    margin-top: 10px;
+}
+
+.componys li:hover{
+    cursor:pointer;
+    color:#0ebb1e;
+}
+.componys li{
+    list-style-type:none;
+}
+
+.nav-menu-dawn ul {
+    list-style-type: none;
+}
+.last-hr{
+    margin-top: -10px;
+}
+
+.search-footer{
+    position:absolute;
+    bottom: 0;
+    width:100%;
+    height:20px;
+    margin:0px;
+}
+.search-header{
+    position:absolute;
+    top: 0;
+    width:100%;
+    height:20px;
+    margin:0px;
+}
+.search-back{
+    position:fixed;
+    height: 100vh;
+    width:100%;
+    top:0px;
+    left:0;
+    z-index:9999;
+    display: none;
+    background-color: rgba(0,10,0,0.3);
+}
+
+.home-address{
+    position:relative;
+    left:13%;
+    top:30px;
+}
+
+.quick-summary{
+    position: relative;
+    top:-190px;
+}
+.quick-data{
+    text-align: right;
+  
+}
+.a{
+    text-decoration: none !important;
+}
+.my-fa{
+    font-size:15px;
+    cursor:pointer;
+}
+.contact-agent{
+    margin-top: -10% !important;
+}
+.gray{
+    background-color:#f0f0ef;
+}
+.loader{
+    text-align: center;
+    padding-top: 28%;
+    position: fixed;
+    top:0;
+    width:100%;
+    height: 100vh;
+    z-index:9999;
+    background-color: rgba(0,0,0,0.3);
+}
+.my-input{
+    background: transparent;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #999999;
+    box-shadow: none;
+}
+.my-input:focus{
+    color:green;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid green;
+    box-shadow: none;
+    transition: .7s;
+}
+.admin-sidebar{
+  
+    height:91vh;
+}
+.admin-workSpace{
+    height:91vh;
+    overflow: auto;
+}
+.fa{
+    cursor:pointer;
+}
+.number{
+    position: absolute;
+    top:10%;
+    right:20%;
+}
+.list-group-item{
+    border:none;
+}
+.admin-slider{
+    position:fixed;
+    left:-50%;
+}
+.text{
+    position: absolute;
+    top:30%;
+    right:20%;
+}
+.v-arrow{
+    position: absolute;
+    bottom: 10%;
+    right:20%;
+}
+.bg-tomato{
+    background: tomato;
+}
+.text-tomato{
+    color:tomato;
+}
+.SearchArea{
+    position:relative;
+    right:3%;
+    top:100%;
+    width:94%;
+    border:1px solid #0099cc;
+    border-top:none;
+}
+.list-group{
+    position:absolute;
+}
+.list-group-item{
+    z-index: 100; 
+}
+.list-group-item:hover{
+    background: #ccffcc; 
+}
+.admin-text{
+    font-size: 20px;
+    color:white;
+}
+.admin-text:hover{
+    color:#0099cc;
+    transition:1s;
+}
+.tag-name-color{
+    color:#0099cc;
+}
+.fa-x{
+    font-size:100%;
+}
+.setting-option{
+    text-align: left;
+}
+.mtr-5{
+    position:relative;
+    top:-14px;
+}
+.px-auto{
+    padding: 0 10% 0 10%;
+}
+.o-w{
+    position:absolute;
+    top:10%;
+}
+.pointer{
+    cursor: pointer;
+}
+.bordered{
+    border:1px solid #999999;
+}
+.admin-loader{
+    padding: 25% 0 0 50%;
+    position:absolute;
+    left:-2px;
+    width:100%;
+    height:100%;
+    z-index: 99;
+    background: rgba(0,0,0,0.5);
+    
+}
+.footer-space{
+    margin-top: 15%;
+}
+
+.right-border{
+    border-left: 5px solid #0066ff;
+    border-radius: 5px;
+}
+.page-link{
+    border:none;
+}
+.page-item{
+    border-radius: 0;
+}
+.pactive{
+    background:#66ff66 !important;
+}
+.editPhotos{
+    position:absolute;
+    top:0%;
+    left:1%;
+    width:98%;
+    height:100vh;
+    background:whitesmoke;
+    border-radius: 5px;
+    display: none;
+    overflow: auto;
+}
+.img-body{
+    overflow: hidden;
+}
+.paction{
+    position:absolute;
+    bottom: -50px;
+    transition: all .4s;    
+}
+.singleP{
+    display: none;
+}
+.img-body:hover .paction{
+    bottom:0px;
+   
+}
+.user-btn:hover .user-btn{
+    color:red;
+}
+.notification{
+    background:#999999;
+    color:white;
+    border-radius: 15%;
+    padding: 4px;
+    margin-left: 2px;
+    margin-top: -2px;
+}
+
+
+
+
+
+
+
+
+
+.background{
+    position:relative;
+    top:-68px;
+    padding-top: 70px;
+   background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url('images/webImg/slide-1.jpg');
+   background-repeat: no-repeat;
+   background-size:cover;
+   height: 80vh;
+   background-attachment: fixed;
+   overflow: hidden;    
+}
+
+
+
+
+/*meadia query for screen 400 for mobile sreen*/
+@media screen and (max-width:540px){
+    .invoice-text{
+        font-size: 15px;
+        font-weight: 10;
+    }
+    .invoice-taxt-mobile{
+        font-size: 13px;
+    }
+    .admin-loader{
+        padding:50%;
+    }
+    .admin-text{
+    font-size: 20px;
+    color:white;
+    margin-left: -10px !important;
+}
+.tag-name{
+    display: none;
+}
+      .searchBar{
+    width:100% !important;
+    overflow: auto;
+   
+}
+    
+     .contact-agent{
+    margin-top: 10% !important;
+}
+    .quick-summary{
+       top:0px;
+    }
+    .home-address{
+    position:relative;
+    left:0;
+    top:25px;
+}
+.big-font{
+    font-size:35px;
+}
+     .card-m{
+        margin:30px 0px  10px 10px;
+        width:95% !important;
+        height:350px !important;
+        padding: 0px;
+        opacity:0.8;
+     }
+        .sub-head{
+        font-size: 12px;
+    }
+    .brand-name{
+        font-size:20px;
+    }
+    .agent-detail{
+        font-size:13px;
+       padding:10px;
+    }
+     .background{
+     top:-62px !important;
+     height:85vh !important;
+ }
+
+
+}
+/* meadia query for 1000 px screen tablet */
+@media screen and (max-width:1000px){
+    .searchBar{
+    width:60%;
+    height: 100%;
+    background:white;
+    position:fixed;
+    top:0px;
+    display:none;
+    right:0px;
+    z-index:9999;
+}
+    .card-m{
+   width:40%;
+   height:400px;
+   background:white;
+   
+}
+
+  .t-name{
+   top:205px !important;
+   left:110px !important;
+}
+    .t-comment{
+    padding:15px 0px 15px 0px !important;
+}
+   .t-img2{
+    max-height: 70px !important;
+    max-width: 70px !important;
+}
+.background{
+     top:-67px ;
+     height:95vh;
+ }
+
+ 
+}
+
