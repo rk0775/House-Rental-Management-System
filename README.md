@@ -1,6 +1,6 @@
-# House-Management-System
+# House-Rent-Management-System
 
-The house Management System project is really made for the tenant's and the property owner. The owner of the 
+The house Rent Management System project is really made for the tenant's and the property owner. The owner of the 
 property can rent or sell his property to the tenant. In this project we show property (house) to persons who
 need property to rent or buy . People who require property for rent can directly contact the property owner and
 book their property for rent.</br></br>
